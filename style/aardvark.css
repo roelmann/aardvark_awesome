@@ -1,0 +1,231 @@
+html {
+	background: #c0deed url([[pix:theme|core/overlay]]) center top repeat-x;
+}
+
+body {
+	color:#4b4b4b;
+}
+
+#page { font-size: 108%;}
+
+a:link,
+a:visited {
+        color:#008db0;
+	text-decoration: none;
+}
+a:hover, a:active {
+        color: #f12711;
+	text-decoration: none;
+
+}
+a.dimmed:link,
+a.dimmed:visited {
+	color:#aaaaaa;
+	text-decoration: none;
+}
+
+#page-content-outer,
+#page-content {
+        background: #ffffff url([[pix:theme|core/h2grad]]) repeat-x left top; 
+}
+
+#region-main-box,
+#region-post-box { margin-top: 15px;}
+
+
+hr {
+	border-bottom:1px dotted gray;
+	border-top:0px;
+}
+
+
+/* 
+Core: Page Header and Logo
+---------------------------*/
+
+#page-header {
+	height: 100px;
+	width: 100%;
+}
+
+#logo { 
+	background: url([[pix:theme|header/logo]]) no-repeat left top;
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+
+/* 
+Core: Page Footer
+-----------------------*/
+
+
+#page-footer {
+	background: #ffffff url([[pix:theme|core/h2grad]]) repeat-x left top;
+	height: 150px;
+	clear:both;
+	float:left;
+	width:96%;
+	padding: 0 2%;
+	color: #4b4b4b;
+	border-top:1px dotted #ddd;
+	line-height: 2.5em;
+	font-size: 1em;
+}
+
+#page-footer a:link,
+#page-footer a:visited  {
+	color: #aaa;
+	text-decoration:none;
+}
+#page-footer a:hover,
+#page-footer a:active { 
+	color: #036;
+	text-decoration:underline overline;
+}
+
+#page-footer p { 
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1em;
+	font-size: 75%;
+}
+
+#page-footer p.copyright { 
+	margin-top: 0px
+	margin-bottom: 3px; 
+}
+
+#page-footer .socioweb-icons { 
+	margin-top: 5px;
+}
+
+#page-footer .socioweb-icons ul { 
+        margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#page-footer .socioweb-icons ul li { 
+	display: inline; 
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* 
+Modules: Forum
+-----------------------*/
+
+
+.forumpost .row.maincontent {
+	background: #ffffff url([[pix:theme|forum/leftpost]]) no-repeat left top;
+}
+.forumpost .row.header {
+	background: #c0deed url([[pix:theme|forum/forumheader]]) repeat left top;
+	border:0px;
+}
+
+.forumpost .content .posting {
+	margin-top: 15px;
+	max-width:100%;
+	overflow: crop;
+}
+.forumpost .topic a:link,
+.forumpost .topic a:visited { 
+	color: #555;
+}
+
+/* 
+General Box
+-----------------------*/
+
+.generalbox {
+border:0 none;
+}
+
+div#notice.generalbox { text-align: center;}
+
+/* 
+Login (Front Page)
+-----------------------*/
+.block_login 
+{
+	margin: 0;
+	padding: 0;
+}
+
+.block_login .footer
+{
+	text-align: right;
+	clear: both
+}
+
+
+.block_login .loginform .c1 {
+    margin: 0.3em 15px;
+    text-align: left;
+
+}
+
+/* 
+Miscellaneous
+-----------------------*/
+
+/* 
+Profileblock
+-----------------------*/
+
+#profileblock {
+	float: right;
+	text-align: right;
+	width: 450px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+.headermenu {
+	float:right;
+	font-size:1em;
+	margin:0px;
+	text-align:right;
+}
+
+div.user-pic img.userpicture {
+	float: right;
+	clear: right;
+	margin: 8px 8px 8px 0;
+	padding: 0;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #fff;
+}
+
+div#post-log { margin-right: 5px;}
+div#pro-opt {
+	float: right;
+	margin-right: 10px;
+	padding: 0;
+	width: 300px;
+}
+
+div#pro-opt p.pro-log a,
+div#pro-opt p.pro-log a:link {
+	color: #fff;
+}
+
+div#pro-opt p.pro-log a:hover {
+	color: red;
+}
+
+/* 
+Course - Topic
+-----------------------*/
+
+.course-content ul.topics li.section .content {
+border:1px solid #DDDDDD;
+margin:0 40px;
+}
